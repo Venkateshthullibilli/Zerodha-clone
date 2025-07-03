@@ -27,13 +27,15 @@ This is the frontend clone of Zerodha platform that replicates the user interfac
     npm run dev
 
 ## Screenshots
-![alt text](<kite login.png>)
-![alt text](<kite login error.png>)
-![alt text](<Kite Dashboard page.png>)
-![alt text](<kite holdings page.png>)
-![alt text](<Kite bids.png>)
-![alt text](<kite funds page.png>)
-![alt text](<kite notfound page.png>)
+![kite login](https://github.com/user-attachments/assets/fa4e1e32-f05c-4e7e-bd81-59dbdee34160)
+![kite login error](https://github.com/user-attachments/assets/4b91da54-c0ac-402d-966f-bce51e5ae320)
+![Kite Dashboard page](https://github.com/user-attachments/assets/53dc1257-a68e-4ed4-b139-240caf7d0f0e)
+![kite holdings page](https://github.com/user-attachments/assets/cdecf113-5695-4253-bf3e-9dfe1a822683)
+![Kite bids](https://github.com/user-attachments/assets/20e79222-8101-49e3-9b2a-e5a6b9a4518d)
+![kite funds page](https://github.com/user-attachments/assets/2e12b9d3-5b6c-455f-9ba2-2c795e5dd33b)
+![kite notfound page](https://github.com/user-attachments/assets/5eb507fb-907c-42fd-8325-0fa11431919a)
+
+
 
 ## Usage
 Visiti login page and enter userid and password

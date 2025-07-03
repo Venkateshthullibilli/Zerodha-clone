@@ -1,0 +1,32 @@
+.notfound-container {
+    background: rgb(38, 37, 37);
+    /* width: 70%; */
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    min-height: 90vh;
+}
+
+.opps-text {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.try-again-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.try-again-btn:hover {
+    background-color: #ff5722;
+    color: #fff;
+}

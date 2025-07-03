@@ -1,12 +1,42 @@
-# React + Vite
+# Zerodha Trading Platfiorm
+## Project Overview
+This is the frontend clone of Zerodha platform that replicates the user interface and experience of the popular trading online platform. The project has been built using React.js for laptop users only.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features:
 
-Currently, two official plugins are available:
+- **User Authentication** : Login functionality using JWT token
+ - **Stock data** : Displays up-to data stock information
+- **Watchlist Area** : To show favourite stocks
+ - **Portfolia Overview** : Users can view their current holdngs, positions, and funds.
+ - **Visual representaion** : Visual representation of data using charts
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ ## Technologies Used 
+ - **Frontend** : React js, CSS3
+ - **Routing** : React Router
+ - **Authentication** : JWT Token
+ - **Icons** : React Icons
 
-## Expanding the ESLint configuration
+ ## Installation & setup
+ 1. Clone the repository:
+    git clone [https://github.com/Venkateshthullibilli/Zerodha-clone.git]
+2. Navigate to the project directory:
+    cd frontend-clone
+3. Install dependies:
+    npm install
+4. Start the develepment Server:
+    npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Screenshots
+![alt text](<kite login.png>)
+![alt text](<kite login error.png>)
+![alt text](<Kite Dashboard page.png>)
+![alt text](<kite holdings page.png>)
+![alt text](<Kite bids.png>)
+![alt text](<kite funds page.png>)
+![alt text](<kite notfound page.png>)
+
+## Usage
+Visiti login page and enter userid and password
+
+username: 'john@mail.com'
+password: 'changeme'

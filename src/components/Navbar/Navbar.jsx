@@ -46,7 +46,7 @@ const Navbar = () => {
           <IoMdNotificationsOutline className="icon"/> 
         </div>
       </div>
-      <button className="login-btn" onClick={handleLogout}>Login</button>
+      <button className="login-btn" onClick={handleLogout}>Logout</button>
 </div>
       <div>
         

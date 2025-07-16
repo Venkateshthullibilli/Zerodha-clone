@@ -6,11 +6,11 @@ import './Navbar.css'
 
 const Navbar = () => {
 
-  const accesToken = localStorage.getItem('jwt_token')
+  // const accesToken = localStorage.getItem('jwt_token')
 
   const navigate = useNavigate()
   const handleLogout = () => {
-    localStorage.removeItem(accesToken)
+    localStorage.removeItem('jwt_token')
     navigate('/')
   }
 
@@ -43,13 +43,13 @@ const Navbar = () => {
         </ul>
         <div className="icons-container">
           <IoCartOutline className="icon"/>
-          <IoMdNotificationsOutline className="icon"/> 
+          <IoMdNotificationsOutline className="icon"/>
         </div>
       </div>
-      <button className="login-btn" onClick={handleLogout}>Login</button>
+      <button className="login-btn" onClick={handleLogout}>Logout</button>
 </div>
       <div>
-        
+
       </div>
     </nav>
     </div>
@@ -57,3 +57,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
